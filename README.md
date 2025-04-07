@@ -89,8 +89,7 @@ Este proyecto está bajo la licencia MIT. Consulte el archivo [LICENSE](LICENSE)
 
 ---
 
-Desarrollado con ❤️ por [Tu Nombre] - ¡Explora el mundo cuántico! 🎇
-```
+Desarrollado con ❤️ por [Gragi-1] 🎇
 
 ---
 
