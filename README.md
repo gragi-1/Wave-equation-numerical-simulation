@@ -1,100 +1,88 @@
-# 🚀 Simulador de la Ecuación de Schrödinger en 1D y 2D
+# 🚀 Schrödinger Equation Simulator in 1D and 2D
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
-[![Licencia](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-Un simulador interactivo para resolver la ecuación de Schrödinger dependiente del tiempo en sistemas cuánticos confinados, utilizando métodos numéricos avanzados y visualización en tiempo real.
+An interactive simulator for solving the time-dependent Schrödinger equation in confined quantum systems, using advanced numerical methods and real-time visualization.
 
-## 🌟 Características Principales
+## 🌟 Key Features
 
-- **Simulaciones en 1D y 2D**:
-  - **1D**: Evolución temporal de un paquete de onda en una caja infinita.
-  - **2D**: Visualización en mapa de calor (2D) o superficie 3D.
-- **Método Numérico**:
-  - Algoritmo **Crank-Nicolson** para integración temporal estable.
-  - Manejo eficiente con factorización LU de matrices dispersas.
-- **Interactividad**:
-  - Botones para pausar, reanudar y reiniciar simulaciones.
-  - Menú de selección intuitivo con soporte de color.
-- **Personalización**:
-  - Ajuste de parámetros físicos (longitud, masa, potencial).
-  - Configuración de condiciones iniciales (ancho del paquete gaussiano, momento inicial).
+- **1D and 2D Simulations**:
+  - **1D**: Temporal evolution of a wave packet in an infinite box.
+  - **2D**: Visualization as a heatmap (2D) or 3D surface.
+- **Numerical Method**:
+  - **Crank-Nicolson** algorithm for stable time integration.
+  - Efficient handling with LU factorization of sparse matrices.
+- **Interactivity**:
+  - Buttons to pause, resume, and reset simulations.
+  - Intuitive color-supported selection menu.
+- **Customization**:
+  - Adjustable physical parameters (length, mass, potential).
+  - Configuration of initial conditions (Gaussian packet width, initial momentum).
 
-## 📦 Requisitos Previos
+## 📦 Prerequisites
 
 - **Python 3.8+**
-- Bibliotecas necesarias:
+- Required libraries:
   ```bash
   pip install numpy matplotlib scipy colorama
   ```
 
-## 🛠️ Instalación y Ejecución
+## 🛠️ Installation and Execution
 
-1. **Clonar el repositorio**:
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/tu-usuario/schrodinger-simulator.git
+   git clone https://github.com/your-username/schrodinger-simulator.git
    cd schrodinger-simulator
    ```
 
-2. **Ejecutar el selector**:
+2. **Run the selector**:
    ```bash
    python selector.py
    ```
 
-## 🖥️ Uso del Simulador
+## 🖥️ Simulator Usage
 
-### Menú Principal
-![Menú Principal](https://via.placeholder.com/600x200.png?text=Selector+Interactivo+del+Simulador)
+### Main Menu
+![Main Menu](https://via.placeholder.com/600x200.png?text=Interactive+Simulator+Selector)
 
-Seleccione una opción:
-- **1**: Simulación 1D (gráfico de densidad de probabilidad).
-- **2**: Simulación 2D (visualización en 2D con mapa de calor).
-- **3**: Simulación 2D (visualización en 3D con superficie interactiva).
-- **q**: Salir del programa.
+Select an option:
+- **1**: 1D simulation (probability density plot).
+- **2**: 2D simulation (2D heatmap visualization).
+- **3**: 2D simulation (interactive 3D surface).
+- **q**: Exit the program.
 
-### Controles en Simulación
-- **Pausar/Continuar**: Congela o reanuda la evolución temporal.
-- **Resetear**: Reinicia la función de onda a su estado inicial.
-- **Visualización en 3D**: Rotación interactiva del gráfico (arrastre con mouse).
+### Simulation Controls
+- **Pause/Resume**: Freeze or resume temporal evolution.
+- **Reset**: Restore the wave function to its initial state.
+- **3D Visualization**: Interactive graph rotation (drag with mouse).
 
-## 📂 Estructura del Proyecto
+## 📂 Project Structure
 
 ```
 schrodinger-simulator/
-├── ecuacion1D.py          # Simulación 1D con botones interactivos
-├── ecuacion2d.py          # Simulación 2D (mapa de calor)
-├── ecuacion2d_3d.py       # Simulación 2D (superficie 3D)
-├── selector.py            # Menú de selección interactivo
+├── ecuacion1D.py          # 1D simulation with interactive buttons
+├── ecuacion2d.py          # 2D simulation (heatmap)
+├── ecuacion2d_3d.py       # 2D simulation (3D surface)
+├── selector.py            # Interactive selection menu
 └── README.md
 ```
 
-## ⚙️ Parámetros Ajustables
+## ⚙️ Adjustable Parameters
 
-En los archivos `.py`:
-- `L`: Longitud de la caja cuántica.
-- `N`: Número de puntos en la malla espacial.
-- `dt`: Paso temporal (ajustar para estabilidad numérica).
-- `sigma`: Ancho del paquete gaussiano inicial.
-- `k0`: Momento inicial del paquete de onda.
+In the `.py` files:
+- `L`: Length of the quantum box.
+- `N`: Number of points in the spatial grid.
+- `dt`: Time step (adjust for numerical stability).
+- `sigma`: Initial Gaussian packet width.
+- `k0`: Initial momentum of the wave packet.
 
-## 📸 Capturas de Demostración
+## 📸 Demonstration Screenshots
 
-| Simulación 1D | Simulación 2D (2D) | Simulación 2D (3D) |
+| 1D Simulation | 2D Simulation (2D) | 2D Simulation (3D) |
 |---------------|--------------------|--------------------|
-| ![1D](https://via.placeholder.com/300x200.png?text=Evolución+1D) | ![2D](https://via.placeholder.com/300x200.png?text=Mapa+de+Calor+2D) | ![3D](https://via.placeholder.com/300x200.png?text=Superficie+3D) |
+| ![1D](https://via.placeholder.com/300x200.png?text=1D+Evolution) | ![2D](https://via.placeholder.com/300x200.png?text=2D+Heatmap) | ![3D](https://via.placeholder.com/300x200.png?text=3D+Surface) |
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto está bajo la licencia MIT. Consulte el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-Desarrollado con ❤️ por [Gragi-1] 🎇
-
----
-
-### Notas Adicionales:
-1. Reemplace `https://github.com/tu-usuario/schrodinger-simulator` con su enlace real al repositorio.
-2. Añada capturas reales de las simulaciones en la sección de demostración.
-3. Personalice la sección de licencia según sus necesidades.
-4. Incluya un archivo `LICENSE` en el repositorio si es necesario.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
