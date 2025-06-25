@@ -80,7 +80,7 @@ In the `.py` files:
 
 | 1D Simulation | 2D Simulation (2D) | 2D Simulation (3D) |
 |---------------|--------------------|--------------------|
-| ![1D](https://github.com/gragi-1/Wave-equation-numerical-simulation/blob/main/1D.png) | ![2D]([https://via.placeholder.com/300x200.png?text=2D+Heatmap](https://github.com/gragi-1/Wave-equation-numerical-simulation/blob/main/ecuacion2d.py)) | ![3D]([https://via.placeholder.com/300x200.png?text=3D+Surface](https://github.com/gragi-1/Wave-equation-numerical-simulation/blob/main/ecuacion2d_3d.py)) |
+| ![1D](https://github.com/gragi-1/Wave-equation-numerical-simulation/blob/main/1D.png) | ![2D](https://github.com/gragi-1/Wave-equation-numerical-simulation/blob/main/2D.png) | ![3D](https://github.com/gragi-1/Wave-equation-numerical-simulation/blob/main/3D.png) |
 
 ## 📄 License
 
