@@ -107,7 +107,8 @@ $$
 
 Space is discretized with centered finite differences. Time evolution uses the
 Crank–Nicolson system
-
+$$
+$$
 $$
 \left(I + \frac{i\Delta t}{2\hbar}H\right)\psi^{n+1}
 =
