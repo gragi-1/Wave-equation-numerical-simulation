@@ -108,7 +108,7 @@ i\hbar\frac{\partial\psi}{\partial t} = \hat{H}\psi,
 Space is discretized with centered finite differences. Time evolution uses the
 Crank–Nicolson system
 
-$$
+```math
 \left(I + \frac{i\Delta t}{2\hbar}H\right)\psi^{n+1}
 =
 \left(I - \frac{i\Delta t}{2\hbar}H\right)\psi^n.
