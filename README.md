@@ -99,20 +99,20 @@ values.
 
 The time-dependent Schrödinger equation is
 
-$$
+```math
 i\hbar\frac{\partial\psi}{\partial t} = \hat{H}\psi,
 \qquad
 \hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + V.
-$$
+```
 
 Space is discretized with centered finite differences. Time evolution uses the
 Crank–Nicolson system
 
-$$
+```math
 \left(I + \frac{i\Delta t}{2\hbar}H\right)\psi^{n+1}
 =
 \left(I - \frac{i\Delta t}{2\hbar}H\right)\psi^n.
-$$
+```
 
 For a Hermitian, time-independent Hamiltonian, this update is unitary up to floating-point
 roundoff. The implementation factorizes the sparse left-hand matrix once and reuses it at
